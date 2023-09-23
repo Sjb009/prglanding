@@ -10,9 +10,9 @@ const CTA = () => {
 
         
         <div>
-            <h1 className='py-2  text-3xl font-semibold'>Join <span className='text-[#20B486]'>Our Telegram</span> platform today </h1>
+            <h1 className='py-2  text-3xl font-semibold'>Join <span className='text-[#20B416]'>Our Telegram</span> platform today </h1>
             <p className='py-2 text-lg text-gray-600'></p>
-            <button className='max-[780px]:w-full my-4 px-8 py-5 rounded-md bg-[#20B486] text-white font-bold'>Join now</button>
+            <button className='max-[780px]:w-full my-4 px-8 py-5 rounded-md bg-[#20B416] text-white font-bold'>Join now</button>
 
              
         </div>

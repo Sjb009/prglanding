@@ -1,6 +1,5 @@
 import React from 'react'
 import { heroImg } from '../assets'
-import StarRating from './StarRating'
 
 const Card = ({course}) => {
   return (

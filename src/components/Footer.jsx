@@ -1,6 +1,6 @@
 import React from 'react'
 import { logo } from '../assets'
-import {FaFacebookF,FaDribbble,FaLinkedinIn,FaInstagram,FaBehance} from 'react-icons/fa'
+import {FaFacebookF,FaTelegram,FaInstagram, FaYoutube,} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -15,10 +15,10 @@ const Footer = () => {
                 <h3 className='py-2 text-[#363A3D]'>Email: info@prg.com</h3>
                 <div className='flex gap-4 py-4'>
                         <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaFacebookF size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaDribbble size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaLinkedinIn size={25} style={{color:'#4DC39E'}} /></div>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaYoutube size={25} style={{color:'#4DC39E'}} /></div>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaTelegram size={25} style={{color:'#4DC39E'}} /></div>
                         <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaInstagram size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaBehance size={25} style={{color:'#4DC39E'}} /></div>
+                        
 
                 </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
                         className='bg-[#F2F3F4] p-4 w-full rounded' 
                         placeholder='Email here' 
                     />
-                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#20B486] text-white font-medium'>Subscribe Now</button>
+                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#20B416] text-white font-medium'>Subscribe Now</button>
 
                 </form>
 
